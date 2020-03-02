@@ -6,8 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 User.delete_all
+Product.delete_all
 
 User.create(name:"Renata",family_name:"Freitas",email:"email@fakeemail.com",password:"123", phone:"123123123",dob:"1995-04-19",admin?:true)
 User.create(name:"Toli",family_name:"Benson",email:"email@fakeemail.com",password:"123", phone:"123123123",dob:"1990-01-10",admin?:false)
+
+Product.create(name:"A.H.A", price:250, image:"", quantity:"120", description:"night cream")
+Product.create(name:"Anti-againg", price:150, image:"", quantity:"220", description:"day cream")
+Product.create(name:"FilorgaHydra", price:350, image:"", quantity:"200", description:"filler")
 
 
