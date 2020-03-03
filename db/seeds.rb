@@ -16,8 +16,8 @@ Product.create(name:"A.H.A", price:250, image:"", quantity:"120", description:"n
 Product.create(name:"Anti-againg", price:150, image:"", quantity:"220", description:"day cream")
 Product.create(name:"FilorgaHydra", price:350, image:"", quantity:"200", description:"filler")
 
-Service.create(name:"Hydra", description:"hydration", image:"", price:"100")
+Service.create(name:"Hydra", description:"hydration", image:"/app/views/layouts/eyeImage.jpeg", price:"100")
 Service.create(name:"rejuvenating", description:"anti-aging", image:"", price:"110")
-Service.create(name:"hand", description:"hand treatment", image:"", price:"50")
+Service.create(name:"hand", description:"hand treatment", image:"/app/views/layouts/handServiceImage.jpeg", price:"50")
 
  
