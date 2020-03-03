@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   resources :users
   resources :products
   resources :services
+
+  post "/login", to: "users#login"
 end
