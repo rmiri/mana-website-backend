@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   resources :services
 
   post "/login", to: "users#login"
+  post "/create", to: "users#create"
   get "/validate", to: "users#validate"
 end
