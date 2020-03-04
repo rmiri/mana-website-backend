@@ -16,7 +16,7 @@ class UsersController < ApplicationController
     def validate
         if get_user
             # If so, send back that user's username and a newly generated token
-            render json: { email: get_user.email, token: generate_token(id: get_user.id)}
+            render json: { user: get_user, token: generate_token(id: get_user.id)}
           else
             # Otherwise, send back an error
             render json: { error: "You are not authorized" }
