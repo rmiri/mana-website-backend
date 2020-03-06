@@ -26,10 +26,10 @@ p6 = Product.create(name:"Filorga Optim Eye", price:350, image:"https://res.clou
 
 
 Service.create(name:"Firming", description:"hydration", image:"https://res.cloudinary.com/ddxhjhvdj/image/upload/v1583231332/eyeImage_xvoa7r.jpg", price:100,category:"Rejuvenate")
-Service.create(name:"Exfoliating", description:"anti-aging", image:"https://res.cloudinary.com/ddxhjhvdj/image/upload/v1583231333/handServiceImage_xxx4zn.jpg", price:110,category:"Hands")
+Service.create(name:"Hydration", description:"hydration", image:"https://res.cloudinary.com/ddxhjhvdj/image/upload/v1583494496/faceservice_hqgiko.jpg", price:100,category:"Hydration")
 Service.create(name:"Detox", description:"hand treatment", image:"https://res.cloudinary.com/ddxhjhvdj/image/upload/v1583231334/massageHand_xbyora.jpg", price:50,category:"Detox")
 Service.create(name:"Eye Treatment", description:"anti-aging", image:"https://res.cloudinary.com/ddxhjhvdj/image/upload/v1583494833/sev22_dd2vzr.jpg", price:110,category:"Eye")
-Service.create(name:"Hydration", description:"hydration", image:"https://res.cloudinary.com/ddxhjhvdj/image/upload/v1583494496/faceservice_hqgiko.jpg", price:100,category:"Hydration")
+Service.create(name:"Exfoliating", description:"anti-aging", image:"https://res.cloudinary.com/ddxhjhvdj/image/upload/v1583231333/handServiceImage_xxx4zn.jpg", price:110,category:"Hands")
 Service.create(name:"Massage with Qigong", description:"hand treatment", image:"https://res.cloudinary.com/ddxhjhvdj/image/upload/v1583492584/service_f5aemg.jpg", price:50,category:"Body")
 
  
