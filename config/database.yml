@@ -79,7 +79,8 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: mana_website_production
-  username: mana_website
-  password: <%= ENV['MANA_WEBSITE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+  # <<: *default
+  # database: mana_website_production
+  # username: mana_website
+  # password: <%= ENV['MANA_WEBSITE_DATABASE_PASSWORD'] %>
